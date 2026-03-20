@@ -20,7 +20,7 @@ jobs:
 
       - name: Instalacja bibliotek
         run: |
-          pip install pandas requests psycopg2-binary
+          pip install pandas requests psycopg2-binary python-dotenv
 
       - name: Uruchomienie skryptu ETL
         env:
